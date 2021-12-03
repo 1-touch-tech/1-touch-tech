@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:3000/about/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/contact/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/multiple/faqs/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/features/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/privacy-policy/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/request-demo/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/terms-conditions/</loc>
+<lastmod>2021-12-03T01:02:38+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:3000/</loc>
+</url>
+</urlset>

@@ -1,1 +1,158 @@
-theme: jekyll-theme-architect
+
+####################################
+######     Global start     ######
+####################################
+name                : 'One Touch Technologies Inc.'
+title               : 'OneTouch - Make Things Simple'
+email               : info@1-touch.tech
+address             : '360 Water St, Unit B, Summerside, PE, C1N 1C4'
+phone               : 1 902 932 9082
+tagline             : 'We code what you will need' 
+description: >- # this means to ignore newlines until "baseurl:"
+  One Touch Technologies Inc. is specialized in mobile app / web app
+  development. We leverage outstanding technical skills to offer IT 
+  platforms to our customers. We also provides services on native 
+  cloud (AWS, Azure, Kubernetes) setup, serverless, and services on 
+  crypto currency including trading use of ccxt, and publishing NFTs.
+baseurl             : "/" # the subpath of your site, e.g. /blog
+url                 : "https://www.1-touch.tech" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+favicon: 'img/favicon.png'
+
+paginate: 12
+paginate_path: "/blog/page:num/"
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Build settings
+markdown            : kramdown
+
+# google_analytics
+google_analytics: G-NKP49YNWWW
+
+# disqus comment
+disqus_shortname: 1-touch
+
+
+####################################
+######     Hero start     ######
+####################################
+# product_background_image          sass
+# product_fixed_image               saas_video             
+# product                           sass_background_image
+# product_slider                    sass_fixed_image
+# product_video                     sass_slider       
+
+hero: 'product_fixed_image'
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - gulpfile.js
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+####################################
+######      Global end      ######
+####################################
+
+
+getform_id:  'c4b0eee2-57c2-4852-8f91-e2292b99ca71' # active contact https://getform.io/f/1234
+
+mailchimp:
+  user-id: 
+  list-id: 
+
+####################################
+######        Copyright       ######
+####################################
+copyright_text: Copyright © 2021 All rights reserved to One Touch Technologies Inc.
+company_url: 'http://www.1-touch.tech'
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+timezone: '' # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#google map api key
+
+map: 
+  key: 'AIzaSyCKE2VloqIl5ufxR7Ie6nudxTBjVYmBqSU'
+  let: 46.3925885
+  lng: -63.797386,17
+  zoom: 11
+  title: '360 Water St, Unit B, Summerside, PE, Canada, C1N 1C4'
+
+
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+  pages:
+    output: true
+    permalink: /:path/index:output_ext
+
+# Defaults
+defaults:
+  # _pages 
+  - scope:
+      path: "" # we can not defile path /blog/index.html for pagination
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      hero: blog_details
