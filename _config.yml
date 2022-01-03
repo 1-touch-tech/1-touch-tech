@@ -2,14 +2,14 @@
 ####################################
 ######     Global start     ######
 ####################################
-name                : 'One Touch Technologies Inc.'
+name                : 'O! Touch Limited'
 title               : 'OneTouch - Your reliable software partner'
 email               : info@1-touch.tech
 address             : 'Unit 2203A, 22/F, Kaiser Centre, 18 Centre Street, Sai Ying Pun, Hong Kong'
 phone               : 
 tagline             : 'We code what you will need' 
 description: >- # this means to ignore newlines until "baseurl:"
-  One Touch Technologies Inc. is specialized in mobile app / web app
+  O! Touch Limited is specialized in mobile app / web app
   development. We leverage outstanding technical skills to offer IT 
   platforms to our customers. We also provides services on native 
   cloud (AWS, Azure, Kubernetes) setup, serverless, and services on 
@@ -88,7 +88,7 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2021 All rights reserved to One Touch Technologies Inc.
+copyright_text: Copyright © 2021 All rights reserved to O! Touch Limited
 company_url: 'http://www.1-touch.tech'
 
 
