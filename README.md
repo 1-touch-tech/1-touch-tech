@@ -1,4 +1,4 @@
-## Welcome to One Touch Technologies website
+## Welcome to O! Touch Technologies website
 
 We are passionated software developer to provide full stack end to end experience to enterprises. We are working hard to get our offering ready, stay tuned.
 
